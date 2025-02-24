@@ -1,5 +1,7 @@
 package com.bridgelabz.employeepayrollapp.controller;
 
+import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
+import com.bridgelabz.employeepayrollapp.model.Employee;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,8 +19,9 @@ public class EmployeePayrollController {
     }
 
     @PostMapping("/create")
-    public String createEmployee(@RequestBody String employee) {
-        return "Employee created: " + employee;
+    public Employee createEmployee(@RequestBody EmployeeDTO employeeDTO) {
+        Employee employee = new Employee(employeeDTO.getName(), employeeDTO.getSalary());
+        return employee;
     }
 
     @PutMapping("/update")
