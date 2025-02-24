@@ -2,11 +2,16 @@ package com.bridgelabz.employeepayrollapp.controller;
 
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
 import com.bridgelabz.employeepayrollapp.model.Employee;
+import com.bridgelabz.employeepayrollapp.service.EmployeePayrollService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/employeepayrollservice")
 public class EmployeePayrollController {
+	
+	@Autowired
+    private EmployeePayrollService employeePayrollService;
 
     @GetMapping("/")
     public String getAllEmployees() {
@@ -20,8 +25,7 @@ public class EmployeePayrollController {
 
     @PostMapping("/create")
     public Employee createEmployee(@RequestBody EmployeeDTO employeeDTO) {
-        Employee employee = new Employee(employeeDTO.getName(), employeeDTO.getSalary());
-        return employee;
+        return employeePayrollService.createEmployee(employeeDTO);
     }
 
     @PutMapping("/update")
