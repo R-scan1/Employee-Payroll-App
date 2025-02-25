@@ -1,0 +1,1102 @@
+2025-02-25T15:20:09.886+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 25676 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:20:09.890+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:20:09.963+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:20:09.965+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:20:10.697+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:20:10.722+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:20:11.274+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:20:11.292+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:20:11.293+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:20:11.341+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:20:11.342+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2025-02-25T15:20:11.520+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:20:11.582+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:20:11.622+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:20:12.004+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:20:12.047+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:20:12.512+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74bb1e94
+2025-02-25T15:20:12.514+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:20:12.560+05:30  WARN 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:20:12.562+05:30  WARN 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:20:12.583+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:20:12.971+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:20:12.976+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:20:13.041+05:30  WARN 25676 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:20:13.451+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:20:13.488+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:20:13.496+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.095 seconds (process running for 4.936)
+2025-02-25T15:20:13.499+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:27:30.406+05:30  INFO 25676 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:27:30.411+05:30  INFO 25676 --- [EmployeePayrollApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:27:30.417+05:30  INFO 25676 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:27:30.422+05:30  INFO 25676 --- [EmployeePayrollApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:27:30.426+05:30  INFO 25676 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:27:30.432+05:30  INFO 25676 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:27:30.537+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 25676 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:27:30.538+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:27:30.710+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:27:30.714+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:27:30.822+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:27:30.823+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:27:30.823+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:27:30.842+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:27:30.842+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 302 ms
+2025-02-25T15:27:30.882+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:27:30.885+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:27:30.894+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:27:30.895+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-25T15:27:30.917+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f8cd475
+2025-02-25T15:27:30.917+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-25T15:27:30.918+05:30  WARN 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:27:30.918+05:30  WARN 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:27:30.920+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:27:30.938+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:27:30.938+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:27:30.959+05:30  WARN 25676 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:27:31.094+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:27:31.114+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:27:31.120+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.628 seconds (process running for 442.56)
+2025-02-25T15:27:31.123+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:27:31.123+05:30  INFO 25676 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:27:41.768+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 15164 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:27:41.770+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:27:41.839+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:27:41.840+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:27:42.542+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:27:42.566+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:27:43.100+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:27:43.118+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:27:43.119+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:27:43.173+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:27:43.173+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2025-02-25T15:27:43.333+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:27:43.388+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:27:43.433+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:27:43.778+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:27:43.815+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:27:44.281+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23940518
+2025-02-25T15:27:44.283+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:27:44.337+05:30  WARN 15164 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:27:44.339+05:30  WARN 15164 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:27:44.360+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:27:44.756+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:27:44.762+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:27:44.830+05:30  WARN 15164 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:27:45.249+05:30  WARN 15164 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-25T15:27:45.286+05:30  WARN 15164 --- [EmployeePayrollApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-25T15:27:45.291+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:27:45.294+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:27:45.302+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:27:45.316+05:30  INFO 15164 --- [EmployeePayrollApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-25T15:27:45.338+05:30 ERROR 15164 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-25T15:28:21.356+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 20288 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:28:21.358+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:28:21.431+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:28:21.432+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:28:22.149+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:28:22.181+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:28:22.765+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:28:22.783+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:28:22.784+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:28:22.838+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:28:22.838+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1405 ms
+2025-02-25T15:28:23.015+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:28:23.065+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:28:23.108+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:28:23.433+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:28:23.465+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:28:23.895+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71ce54be
+2025-02-25T15:28:23.897+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:28:23.946+05:30  WARN 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:28:23.947+05:30  WARN 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:28:23.967+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:28:24.384+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:28:24.394+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:28:24.482+05:30  WARN 20288 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:28:24.966+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:28:25.014+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:28:25.024+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.13 seconds (process running for 4.981)
+2025-02-25T15:28:25.029+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:32:46.308+05:30  INFO 20288 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:32:46.311+05:30  INFO 20288 --- [EmployeePayrollApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:32:46.316+05:30  INFO 20288 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:32:46.319+05:30  INFO 20288 --- [EmployeePayrollApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:32:46.322+05:30  INFO 20288 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:32:46.329+05:30  INFO 20288 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:32:46.453+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 20288 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:32:46.455+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:32:46.661+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:32:46.663+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:32:46.765+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:32:46.766+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:32:46.767+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:32:46.788+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:32:46.788+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2025-02-25T15:32:46.837+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:32:46.840+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:32:46.851+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:32:46.852+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-25T15:32:46.875+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9c08079
+2025-02-25T15:32:46.876+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-25T15:32:46.876+05:30  WARN 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:32:46.877+05:30  WARN 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:32:46.877+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:32:46.896+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:32:46.897+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:32:46.919+05:30  WARN 20288 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:32:47.041+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:32:47.054+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:32:47.060+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.662 seconds (process running for 267.016)
+2025-02-25T15:32:47.062+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:32:47.062+05:30  INFO 20288 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:32:54.961+05:30  INFO 20288 --- [EmployeePayrollApp] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-25T15:32:54.962+05:30  INFO 20288 --- [EmployeePayrollApp] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:32:54.967+05:30  INFO 20288 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:32:54.970+05:30  INFO 20288 --- [EmployeePayrollApp] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:32:54.972+05:30  INFO 20288 --- [EmployeePayrollApp] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-25T15:32:54.977+05:30  INFO 20288 --- [EmployeePayrollApp] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-25T15:33:05.105+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 21144 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:33:05.108+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:33:05.183+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:33:05.184+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:33:05.861+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:33:05.885+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:33:06.477+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:33:06.493+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:33:06.494+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:33:06.550+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:33:06.551+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
+2025-02-25T15:33:06.755+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:33:06.814+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:33:06.854+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:33:07.170+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:33:07.205+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:33:07.662+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5baaed81
+2025-02-25T15:33:07.664+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:33:07.710+05:30  WARN 21144 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:33:07.712+05:30  WARN 21144 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:33:07.733+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:33:08.103+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:33:08.108+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:33:08.171+05:30  WARN 21144 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:33:08.557+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:33:08.602+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:33:08.613+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.989 seconds (process running for 4.886)
+2025-02-25T15:33:08.616+05:30  INFO 21144 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:33:29.202+05:30  INFO 21144 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-25T15:33:29.205+05:30  INFO 21144 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:33:29.211+05:30  INFO 21144 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:33:29.217+05:30  INFO 21144 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:33:29.221+05:30  INFO 21144 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:33:29.229+05:30  INFO 21144 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:34:01.363+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 12844 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:34:01.366+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:34:01.443+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:34:01.444+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:34:02.218+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:34:02.240+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:34:02.778+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:34:02.798+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:34:02.798+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:34:02.850+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:34:02.850+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1405 ms
+2025-02-25T15:34:03.012+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:34:03.064+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:34:03.102+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:34:03.437+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:34:03.468+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:34:03.908+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76edbb74
+2025-02-25T15:34:03.910+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:34:03.956+05:30  WARN 12844 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:34:03.957+05:30  WARN 12844 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:34:03.975+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:34:04.363+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:34:04.371+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:34:04.439+05:30  WARN 12844 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:34:04.831+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:34:04.879+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:34:04.889+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.98 seconds (process running for 4.779)
+2025-02-25T15:34:04.892+05:30  INFO 12844 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:34:23.882+05:30  INFO 12844 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-25T15:34:23.885+05:30  INFO 12844 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:34:23.891+05:30  INFO 12844 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:34:23.895+05:30  INFO 12844 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:34:23.897+05:30  INFO 12844 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:34:23.903+05:30  INFO 12844 --- [EmployeePayrollApp] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:34:39.923+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 21428 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:34:39.926+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:34:39.994+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:34:39.994+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:34:40.657+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:34:40.681+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:34:41.203+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:34:41.217+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:34:41.217+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:34:41.266+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:34:41.266+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1271 ms
+2025-02-25T15:34:41.323+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@193f9f10
+2025-02-25T15:34:41.422+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:34:41.476+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:34:41.523+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:34:41.829+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:34:41.863+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-02-25T15:34:41.867+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:34:41.867+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:34:41.867+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:34:41.868+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:34:41.868+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:34:41.869+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:34:41.869+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:34:41.869+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:34:41.869+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:34:41.870+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:34:41.870+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:34:41.871+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:34:41.871+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:34:41.871+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:34:41.871+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:34:41.872+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:34:41.872+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:34:41.872+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:34:41.873+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:34:41.873+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2025-02-25T15:34:41.873+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:34:41.874+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:34:41.874+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:34:41.874+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:34:41.874+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:34:41.874+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:34:41.875+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-02-25T15:34:41.875+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:34:41.875+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:34:41.875+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:34:41.876+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:34:41.876+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:34:41.876+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:34:41.876+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:34:41.876+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:34:41.876+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:34:42.326+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e9f099
+2025-02-25T15:34:42.328+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:34:42.383+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:34:42.384+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:34:42.406+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:34:42.443+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:34:42.444+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:34:42.470+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72bd7f0
+2025-02-25T15:34:42.505+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:34:42.534+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4616ddcb
+2025-02-25T15:34:42.568+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:34:42.594+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@771afa19
+2025-02-25T15:34:42.630+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:34:42.661+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26392284
+2025-02-25T15:34:42.693+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:34:42.802+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:34:42.807+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:34:42.869+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:34:43.259+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:34:43.294+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:34:43.305+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.854 seconds (process running for 4.684)
+2025-02-25T15:34:43.310+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:35:12.459+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:35:12.459+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:35:12.459+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-02-25T15:35:39.286+05:30  INFO 21428 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:35:39.289+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:35:39.294+05:30  INFO 21428 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:35:39.299+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:35:39.302+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:35:39.302+05:30 DEBUG 21428 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:35:39.305+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68e9f099: (connection evicted)
+2025-02-25T15:35:39.307+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72bd7f0: (connection evicted)
+2025-02-25T15:35:39.308+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4616ddcb: (connection evicted)
+2025-02-25T15:35:39.308+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@771afa19: (connection evicted)
+2025-02-25T15:35:39.309+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26392284: (connection evicted)
+2025-02-25T15:35:39.309+05:30 DEBUG 21428 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:35:39.310+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:35:39.406+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 21428 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:35:39.407+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:35:39.587+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:35:39.591+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:35:39.709+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:35:39.711+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:35:39.711+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:35:39.736+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:35:39.736+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2025-02-25T15:35:39.753+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d77c628
+2025-02-25T15:35:39.776+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:35:39.779+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:35:39.791+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:35:39.792+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-2 - configuration:
+2025-02-25T15:35:39.795+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:35:39.795+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:35:39.795+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:35:39.795+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:35:39.795+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:35:39.795+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:35:39.796+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:35:39.797+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:35:39.797+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:35:39.797+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:35:39.797+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:35:39.798+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:35:39.798+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:35:39.798+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:35:39.798+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:35:39.798+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:35:39.799+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:35:39.799+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-2"
+2025-02-25T15:35:39.799+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:35:39.799+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:35:39.799+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:35:39.799+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:35:39.800+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:35:39.800+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:35:39.800+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:35:39.800+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:35:39.800+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-25T15:35:39.825+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c8f559a
+2025-02-25T15:35:39.826+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-25T15:35:39.827+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:35:39.827+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:35:39.827+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:35:39.853+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:35:39.854+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:35:39.879+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:35:39.937+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:35:39.937+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:35:39.960+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69af6c7d
+2025-02-25T15:35:39.999+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:35:40.013+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:35:40.021+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28926646
+2025-02-25T15:35:40.026+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:35:40.033+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.665 seconds (process running for 61.412)
+2025-02-25T15:35:40.036+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:35:40.036+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:35:40.062+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:35:40.083+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19f0aba6
+2025-02-25T15:35:40.126+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:35:40.145+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48bd9909
+2025-02-25T15:35:40.187+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:35:55.605+05:30  INFO 21428 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:35:55.606+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:35:55.612+05:30  INFO 21428 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:35:55.613+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:35:55.614+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-25T15:35:55.614+05:30 DEBUG 21428 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:35:55.615+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c8f559a: (connection evicted)
+2025-02-25T15:35:55.616+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69af6c7d: (connection evicted)
+2025-02-25T15:35:55.617+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28926646: (connection evicted)
+2025-02-25T15:35:55.618+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19f0aba6: (connection evicted)
+2025-02-25T15:35:55.618+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48bd9909: (connection evicted)
+2025-02-25T15:35:55.619+05:30 DEBUG 21428 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:35:55.620+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-25T15:35:55.717+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 21428 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:35:55.717+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:35:55.857+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:35:55.861+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:35:55.956+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:35:55.957+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:35:55.957+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:35:55.982+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:35:55.982+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 263 ms
+2025-02-25T15:35:55.997+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26c8bfac
+2025-02-25T15:35:56.018+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:35:56.021+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:35:56.035+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:35:56.037+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-3 - configuration:
+2025-02-25T15:35:56.037+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:35:56.038+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:35:56.039+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:35:56.039+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:35:56.039+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:35:56.039+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:35:56.039+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:35:56.039+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:35:56.040+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:35:56.040+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-3"
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:35:56.041+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:35:56.042+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:35:56.042+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:35:56.042+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:35:56.042+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-02-25T15:35:56.069+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36c28e43
+2025-02-25T15:35:56.069+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-02-25T15:35:56.070+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:35:56.070+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:35:56.070+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:35:56.090+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:35:56.091+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:35:56.124+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:35:56.179+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:35:56.179+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:35:56.206+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@598c02fb
+2025-02-25T15:35:56.242+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:35:56.274+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18b108c0
+2025-02-25T15:35:56.304+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:35:56.306+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:35:56.324+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:35:56.330+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29e3d66b
+2025-02-25T15:35:56.331+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.65 seconds (process running for 77.71)
+2025-02-25T15:35:56.333+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:35:56.333+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:35:56.365+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:35:56.393+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@789ef78f
+2025-02-25T15:35:56.428+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:36:00.795+05:30  INFO 21428 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:36:00.796+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:36:00.800+05:30  INFO 21428 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:36:00.801+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:36:00.802+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-02-25T15:36:00.802+05:30 DEBUG 21428 --- [EmployeePayrollApp] [Thread-11] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:36:00.802+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36c28e43: (connection evicted)
+2025-02-25T15:36:00.803+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@598c02fb: (connection evicted)
+2025-02-25T15:36:00.805+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18b108c0: (connection evicted)
+2025-02-25T15:36:00.806+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29e3d66b: (connection evicted)
+2025-02-25T15:36:00.806+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@789ef78f: (connection evicted)
+2025-02-25T15:36:00.807+05:30 DEBUG 21428 --- [EmployeePayrollApp] [Thread-11] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:36:00.807+05:30  INFO 21428 --- [EmployeePayrollApp] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-02-25T15:36:00.902+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 21428 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:36:00.902+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:36:01.041+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:36:01.045+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:36:01.123+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:36:01.124+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:36:01.124+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:36:01.144+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:36:01.144+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 240 ms
+2025-02-25T15:36:01.162+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@441acdef
+2025-02-25T15:36:01.188+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:36:01.190+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:36:01.201+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:36:01.201+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-4 - configuration:
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:36:01.202+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-4"
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:36:01.203+05:30 DEBUG 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:36:01.203+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-02-25T15:36:01.231+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@302ff513
+2025-02-25T15:36:01.233+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-02-25T15:36:01.233+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:36:01.233+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:36:01.234+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:36:01.252+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:36:01.252+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:36:01.273+05:30  WARN 21428 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:36:01.336+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:36:01.336+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:36:01.361+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@121df50e
+2025-02-25T15:36:01.398+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:36:01.414+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:36:01.423+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5320ff35
+2025-02-25T15:36:01.431+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:36:01.435+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.573 seconds (process running for 82.814)
+2025-02-25T15:36:01.437+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:36:01.437+05:30  INFO 21428 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:36:01.460+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:36:01.479+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62b96bf1
+2025-02-25T15:36:01.523+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:36:01.538+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@330f007a
+2025-02-25T15:36:01.570+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:36:09.317+05:30  INFO 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-25T15:36:09.318+05:30  INFO 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:36:09.322+05:30  INFO 21428 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:36:09.323+05:30  INFO 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:36:09.323+05:30  INFO 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-02-25T15:36:09.325+05:30 DEBUG 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:36:09.325+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@302ff513: (connection evicted)
+2025-02-25T15:36:09.326+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@121df50e: (connection evicted)
+2025-02-25T15:36:09.326+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5320ff35: (connection evicted)
+2025-02-25T15:36:09.327+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62b96bf1: (connection evicted)
+2025-02-25T15:36:09.327+05:30 DEBUG 21428 --- [EmployeePayrollApp] [HikariPool-4 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@330f007a: (connection evicted)
+2025-02-25T15:36:09.328+05:30 DEBUG 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:36:09.328+05:30  INFO 21428 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-02-25T15:37:46.423+05:30  INFO 15512 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 15512 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:37:46.426+05:30  INFO 15512 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:37:46.496+05:30  INFO 15512 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:37:46.496+05:30  INFO 15512 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:37:47.235+05:30  INFO 15512 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:37:47.259+05:30  INFO 15512 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:37:57.690+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 14856 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:37:57.693+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:37:57.779+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:37:57.780+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:37:58.504+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:37:58.527+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:37:59.102+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:37:59.118+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:37:59.119+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:37:59.170+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:37:59.170+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1389 ms
+2025-02-25T15:37:59.230+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@193f9f10
+2025-02-25T15:37:59.337+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:37:59.392+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:37:59.428+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:37:59.778+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:37:59.812+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-02-25T15:37:59.816+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:37:59.816+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:37:59.816+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:37:59.817+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:37:59.817+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:37:59.818+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:37:59.818+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:37:59.818+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:37:59.818+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:37:59.819+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:37:59.819+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:37:59.819+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:37:59.820+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:37:59.820+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:37:59.820+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:37:59.820+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:37:59.820+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:37:59.820+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:37:59.822+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:37:59.823+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-02-25T15:37:59.823+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:37:59.823+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:37:59.823+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:37:59.823+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:37:59.824+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:37:59.824+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:37:59.824+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:37:59.824+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:37:59.824+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:38:00.294+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fe26713
+2025-02-25T15:38:00.296+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:38:00.344+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:38:00.345+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:38:00.364+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:38:00.396+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:38:00.397+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:38:00.423+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31ada0f6
+2025-02-25T15:38:00.454+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:38:00.480+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7090aacd
+2025-02-25T15:38:00.512+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:38:00.538+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@412abdf8
+2025-02-25T15:38:00.569+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:38:00.598+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10bf5582
+2025-02-25T15:38:00.629+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:38:00.739+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:38:00.745+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:38:00.810+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:38:01.209+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:38:01.255+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:38:01.265+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.062 seconds (process running for 4.888)
+2025-02-25T15:38:01.269+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:38:30.404+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:38:30.404+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:38:30.404+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-02-25T15:39:00.408+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:00.409+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:00.409+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-02-25T15:39:30.412+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:30.412+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:30.413+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-02-25T15:39:31.844+05:30  INFO 14856 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-25T15:39:31.849+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:39:31.856+05:30  INFO 14856 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:39:31.862+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:39:31.867+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:39:31.867+05:30 DEBUG 14856 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:31.869+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@fe26713: (connection evicted)
+2025-02-25T15:39:31.872+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31ada0f6: (connection evicted)
+2025-02-25T15:39:31.874+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7090aacd: (connection evicted)
+2025-02-25T15:39:31.875+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@412abdf8: (connection evicted)
+2025-02-25T15:39:31.876+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10bf5582: (connection evicted)
+2025-02-25T15:39:31.877+05:30 DEBUG 14856 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:39:31.877+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:39:31.996+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 14856 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:39:31.997+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:39:32.359+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:39:32.365+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:39:32.492+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:39:32.494+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:39:32.495+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:39:32.515+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:39:32.515+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+2025-02-25T15:39:32.530+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6e1b826e
+2025-02-25T15:39:32.555+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:39:32.559+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:39:32.570+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:39:32.571+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-2 - configuration:
+2025-02-25T15:39:32.572+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:39:32.574+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:39:32.575+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:39:32.576+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-2"
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:39:32.577+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:39:32.578+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:39:32.578+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:39:32.578+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:39:32.578+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:39:32.578+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-25T15:39:32.603+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31144503
+2025-02-25T15:39:32.604+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-25T15:39:32.605+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:39:32.605+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:39:32.605+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:39:32.630+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:39:32.630+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:39:32.656+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:39:32.712+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:39:32.712+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:39:32.735+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ff13f8b
+2025-02-25T15:39:32.774+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:39:32.796+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ecc35b0
+2025-02-25T15:39:32.802+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:39:32.819+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:39:32.825+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.871 seconds (process running for 96.448)
+2025-02-25T15:39:32.827+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:39:32.827+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:39:32.835+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:39:32.856+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ff8e84f
+2025-02-25T15:39:32.898+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:39:32.915+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ee3caff
+2025-02-25T15:39:32.960+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:34.223+05:30  INFO 14856 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (0 additions, 0 deletions, 9 modifications)
+2025-02-25T15:39:34.224+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:39:34.228+05:30  INFO 14856 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:39:34.230+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:39:34.230+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-25T15:39:34.230+05:30 DEBUG 14856 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:39:34.232+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31144503: (connection evicted)
+2025-02-25T15:39:34.233+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ff13f8b: (connection evicted)
+2025-02-25T15:39:34.233+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ecc35b0: (connection evicted)
+2025-02-25T15:39:34.234+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ff8e84f: (connection evicted)
+2025-02-25T15:39:34.236+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ee3caff: (connection evicted)
+2025-02-25T15:39:34.236+05:30 DEBUG 14856 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:39:34.236+05:30  INFO 14856 --- [EmployeePayrollApp] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-25T15:39:34.318+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 14856 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:39:34.318+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:39:34.474+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:39:34.477+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:39:34.563+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:39:34.565+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:39:34.566+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:39:34.586+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:39:34.586+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 267 ms
+2025-02-25T15:39:34.600+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@20b7c2d9
+2025-02-25T15:39:34.629+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:39:34.633+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:39:34.644+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:39:34.645+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-3 - configuration:
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:39:34.646+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:39:34.647+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:39:34.648+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-3"
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:39:34.649+05:30 DEBUG 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:39:34.649+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-02-25T15:39:34.671+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b4ac00e
+2025-02-25T15:39:34.672+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-02-25T15:39:34.672+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:39:34.673+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:39:34.673+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:39:34.689+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:39:34.689+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:39:34.715+05:30  WARN 14856 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:39:34.780+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:39:34.780+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:39:34.800+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39255595
+2025-02-25T15:39:34.843+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:39:34.853+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:39:34.863+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78185fae
+2025-02-25T15:39:34.867+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:39:34.870+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.576 seconds (process running for 98.494)
+2025-02-25T15:39:34.870+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:39:34.872+05:30  INFO 14856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:39:34.903+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:39:34.923+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49aac0ef
+2025-02-25T15:39:34.967+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:39:34.983+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1837a0e1
+2025-02-25T15:39:35.028+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:04.784+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:04.784+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:04.784+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-02-25T15:40:07.488+05:30  INFO 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-25T15:40:07.489+05:30  INFO 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:40:07.508+05:30  INFO 14856 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:40:07.516+05:30  INFO 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:40:07.517+05:30  INFO 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-02-25T15:40:07.517+05:30 DEBUG 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:07.517+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b4ac00e: (connection evicted)
+2025-02-25T15:40:07.519+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@39255595: (connection evicted)
+2025-02-25T15:40:07.520+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78185fae: (connection evicted)
+2025-02-25T15:40:07.522+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49aac0ef: (connection evicted)
+2025-02-25T15:40:07.523+05:30 DEBUG 14856 --- [EmployeePayrollApp] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1837a0e1: (connection evicted)
+2025-02-25T15:40:07.525+05:30 DEBUG 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:40:07.525+05:30  INFO 14856 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-02-25T15:40:21.756+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 16496 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:40:21.759+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:40:21.829+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:40:21.829+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:40:22.557+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:40:22.583+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:40:23.139+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:40:23.156+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:40:23.156+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:40:23.218+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:40:23.219+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
+2025-02-25T15:40:23.285+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@193f9f10
+2025-02-25T15:40:23.396+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:40:23.452+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-25T15:40:23.493+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:40:23.827+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:40:23.860+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-02-25T15:40:23.863+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-02-25T15:40:23.865+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-02-25T15:40:23.865+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-02-25T15:40:23.865+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-02-25T15:40:23.865+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-02-25T15:40:23.866+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-02-25T15:40:23.866+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-02-25T15:40:23.867+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-02-25T15:40:23.867+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-02-25T15:40:23.867+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................30000
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-02-25T15:40:23.868+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-02-25T15:40:23.869+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/employee_db
+2025-02-25T15:40:23.869+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-02-25T15:40:23.869+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........2000
+2025-02-25T15:40:23.869+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-02-25T15:40:23.869+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-02-25T15:40:23.870+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-02-25T15:40:23.870+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-02-25T15:40:23.870+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2025-02-25T15:40:23.870+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-02-25T15:40:23.870+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-02-25T15:40:23.870+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-02-25T15:40:23.872+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-02-25T15:40:23.872+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-02-25T15:40:23.872+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-02-25T15:40:23.873+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-02-25T15:40:23.873+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-02-25T15:40:23.873+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-02-25T15:40:23.873+05:30 DEBUG 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-02-25T15:40:23.873+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T15:40:24.319+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b64c049
+2025-02-25T15:40:24.322+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T15:40:24.367+05:30  WARN 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:40:24.368+05:30  WARN 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:40:24.390+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:40:24.434+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:40:24.435+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2025-02-25T15:40:24.464+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d02cc1a
+2025-02-25T15:40:24.496+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-02-25T15:40:24.524+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c3fc621
+2025-02-25T15:40:24.558+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-02-25T15:40:24.589+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d798ac0
+2025-02-25T15:40:24.621+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-02-25T15:40:24.652+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c10396e
+2025-02-25T15:40:24.697+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:24.860+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:40:24.868+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:40:24.941+05:30  WARN 16496 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:40:25.387+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:40:25.427+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:40:25.436+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.159 seconds (process running for 4.989)
+2025-02-25T15:40:25.439+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:40:54.444+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:54.444+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:40:54.444+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-02-25T15:41:17.367+05:30  INFO 16496 --- [EmployeePayrollApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:41:17.370+05:30  INFO 16496 --- [EmployeePayrollApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:41:17.376+05:30  INFO 16496 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:41:17.380+05:30  INFO 16496 --- [EmployeePayrollApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:41:17.383+05:30  INFO 16496 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T15:41:17.383+05:30 DEBUG 16496 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2025-02-25T15:41:17.384+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b64c049: (connection evicted)
+2025-02-25T15:41:17.387+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4d02cc1a: (connection evicted)
+2025-02-25T15:41:17.388+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c3fc621: (connection evicted)
+2025-02-25T15:41:17.389+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3d798ac0: (connection evicted)
+2025-02-25T15:41:17.390+05:30 DEBUG 16496 --- [EmployeePayrollApp] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c10396e: (connection evicted)
+2025-02-25T15:41:17.391+05:30 DEBUG 16496 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-02-25T15:41:17.391+05:30  INFO 16496 --- [EmployeePayrollApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T15:41:17.495+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.1 with PID 16496 (D:\Employee Payroll App\EmployeePayrollApp\target\classes started by Asus in D:\Employee Payroll App\EmployeePayrollApp)
+2025-02-25T15:41:17.495+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:41:17.690+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T15:41:17.696+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-02-25T15:41:17.799+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T15:41:17.799+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:41:17.800+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:41:17.822+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:41:17.822+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2025-02-25T15:41:17.871+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T15:41:17.874+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T15:41:17.887+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T15:41:17.889+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-25T15:41:17.911+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42e90c0b
+2025-02-25T15:41:17.911+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-25T15:41:17.913+05:30  WARN 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T15:41:17.913+05:30  WARN 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-25T15:41:17.914+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T15:41:17.935+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T15:41:17.935+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:41:17.959+05:30  WARN 16496 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T15:41:18.089+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:41:18.106+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T15:41:18.111+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.658 seconds (process running for 57.665)
+2025-02-25T15:41:18.114+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:41:18.114+05:30  INFO 16496 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2025-02-25T15:41:18.295+05:30  INFO 16496 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-25T15:41:18.296+05:30  INFO 16496 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:41:18.302+05:30  INFO 16496 --- [EmployeePayrollApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:41:18.304+05:30  INFO 16496 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T15:41:18.305+05:30  INFO 16496 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-25T15:41:18.325+05:30  INFO 16496 --- [EmployeePayrollApp] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
