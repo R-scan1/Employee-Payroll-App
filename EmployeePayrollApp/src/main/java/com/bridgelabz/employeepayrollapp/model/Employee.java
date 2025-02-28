@@ -1,39 +1,35 @@
 package com.bridgelabz.employeepayrollapp.model;
 
-public class Employee {
-	
-    private static long idCounter=1;
-	private long id;
-    private String name;
-    private double salary;
+import java.util.List;
 
-    public Employee(String name, double salary) {
-        this.id=idCounter;
-        idCounter++;
-    	this.name = name;
-        this.salary = salary;
+import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
+
+import lombok.Data;
+
+public @Data class Employee {
+	
+    private int employeeId;
+    private String name;
+    private long salary;
+    private String gender;
+    private String startDate;
+    private String note;
+    private String profilePic;
+    private List<String> departments;
+    
+
+    public Employee() {}
+    
+    public Employee(int empId,EmployeeDTO employeedto) {
+        this.employeeId=empId;
+        this.name=employeedto.name;
+        this.salary=employeedto.salary;
+        this.gender=employeedto.gender;
+        this.note=employeedto.note;
+        this.startDate=employeedto.startDate;
+        this.profilePic=employeedto.profilePic;
+        this.departments=employeedto.department;
     }
     
-    public long getId(){
-    	return id;
-    	}
-    public void setId(long id){
-    	this.id = id; 
-    	}
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
+    
 }
