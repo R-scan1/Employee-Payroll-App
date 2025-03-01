@@ -1,6 +1,7 @@
 package com.bridgelabz.employeepayrollapp.model;
 
 import java.time.LocalDate;
+
 import java.util.List;
 
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
@@ -36,9 +37,9 @@ public @Data class Employee {
     
     
     @ElementCollection
-    @CollectionTable(name="employee_department", joinColumns=@JoinColumn(name="id"))
+    @CollectionTable(name="employee_department", joinColumns=@JoinColumn(name="employee_id"))
     @Column(name="department")
-    private List<String> departments;
+    private List<String> department;
     
 
     public Employee() {}
@@ -54,7 +55,7 @@ public @Data class Employee {
         this.note=employeedto.note;
         this.startDate=employeedto.startDate;
         this.profilePic=employeedto.profilePic;
-        this.departments=employeedto.departments;
+        this.department=employeedto.department;
     }
     
     

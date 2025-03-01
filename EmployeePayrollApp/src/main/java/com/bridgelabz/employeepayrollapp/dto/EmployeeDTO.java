@@ -37,5 +37,5 @@ public class EmployeeDTO {
     public String profilePic;
 
     @NotEmpty(message = "Department should cannot be empty")
-    public List<String> departments;
+    public List<String> department;
 }
