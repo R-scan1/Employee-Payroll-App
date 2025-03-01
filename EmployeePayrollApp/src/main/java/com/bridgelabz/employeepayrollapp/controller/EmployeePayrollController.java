@@ -12,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
 import java.util.List;
 
 @RestController
@@ -20,36 +19,48 @@ import java.util.List;
 public class EmployeePayrollController {
 
     @Autowired
-    private EmployeePayrollService employeePayrollService;  
-
+    private EmployeePayrollService employeePayrollService;
 
     @PostMapping("/create")
-    public ResponseEntity<?> createEmployee(@Valid @RequestBody EmployeeDTO employeeDTO) {
-        System.out.println("Received Employee DTO: " + employeeDTO); // Debugging line
+    public ResponseEntity<ResponseDTO> createEmployee(@Valid @RequestBody EmployeeDTO employeeDTO) {
         Employee employee = employeePayrollService.createEmployee(employeeDTO);
-        return new ResponseEntity<>(employee, HttpStatus.CREATED);
+        ResponseDTO response = new ResponseDTO("Employee created successfully", employee);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
     @GetMapping("/")
-    public List<Employee> getAllEmployees() {
-        return employeePayrollService.getAllEmployees();
+    public ResponseEntity<ResponseDTO> getAllEmployees() {
+        List<Employee> employeeList = employeePayrollService.getAllEmployees();
+        ResponseDTO response = new ResponseDTO("List of all employees", employeeList);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping("/get/{id}")
-    public Employee getEmployeeById(@PathVariable("id") int id) {
-        return employeePayrollService.getEmployeeById(id);
+    public ResponseEntity<ResponseDTO> getEmployeeById(@PathVariable("id") int id) {
+        Employee employee = employeePayrollService.getEmployeeById(id);
+        ResponseDTO response = new ResponseDTO("Employee details for ID: " + id, employee);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
     
+    @GetMapping("/department/{department}")
+    public ResponseEntity<ResponseDTO> getEmployeeByDepartment(@PathVariable("department")String department){
+    	List<Employee> empDataList=null;
+    	empDataList=employeePayrollService.getEmployeesByDepartment(department);
+    	ResponseDTO respDTO=new ResponseDTO("Get Call For ID Successful",empDataList);
+    	return new ResponseEntity<ResponseDTO>(respDTO,HttpStatus.OK);
+    }
+
     @PutMapping("/update/{id}")
-    public Employee updateEmployee(@PathVariable("id") int id,@Valid @RequestBody EmployeeDTO employeeDTO) {
-        return employeePayrollService.updateEmployee(id, employeeDTO);
+    public ResponseEntity<ResponseDTO> updateEmployee(@PathVariable("id") int id, @Valid @RequestBody EmployeeDTO employeeDTO) {
+        Employee updatedEmployee = employeePayrollService.updateEmployee(id, employeeDTO);
+        ResponseDTO response = new ResponseDTO("Employee updated successfully", updatedEmployee);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
-    
+
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<ResponseDTO> deleteEmployee(@PathVariable("id") int id) {
         employeePayrollService.deleteEmployee(id);
         ResponseDTO response = new ResponseDTO("Employee deleted successfully", "Employee ID: " + id);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
-
 }

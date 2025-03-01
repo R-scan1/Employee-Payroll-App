@@ -30,6 +30,11 @@ public class EmployeePayrollService implements IEmployeePayrollService{
         return employeeRepository.findAll();
     }
 
+    @Override
+    public List<Employee> getEmployeesByDepartment(String department){
+    	return employeeRepository.findEmployeeByDepartment(department);
+    }
+    
     public Employee getEmployeeById(int id) {
         return employeeRepository.findById(id).orElseThrow(()->new EmployeePayrollException("Employee with employeeID "+id+" does not exists..!!"));
     }

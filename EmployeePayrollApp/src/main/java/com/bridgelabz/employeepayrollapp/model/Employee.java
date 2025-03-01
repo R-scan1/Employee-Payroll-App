@@ -37,7 +37,7 @@ public @Data class Employee {
     
     
     @ElementCollection
-    @CollectionTable(name="employee_department", joinColumns=@JoinColumn(name="employee_id"))
+    @CollectionTable(name="employee_department", joinColumns=@JoinColumn(name="id"))
     @Column(name="department")
     private List<String> department;
     
