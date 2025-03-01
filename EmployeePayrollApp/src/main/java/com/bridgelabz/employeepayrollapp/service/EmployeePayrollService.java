@@ -3,24 +3,30 @@ package com.bridgelabz.employeepayrollapp.service;
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
 import com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException;
 import com.bridgelabz.employeepayrollapp.model.Employee;
+import com.bridgelabz.employeepayrollapp.repository.EmployeePayrollRepository;
+
 import lombok.extern.slf4j.Slf4j;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 @Slf4j
 @Service
-public class EmployeePayrollService {
+public class EmployeePayrollService implements IEmployeePayrollService{
 
-    private List<Employee> employeeList = new CopyOnWriteArrayList<>(); // Thread-safe list
-    private int employeeIdCounter = 1;
+	@Autowired
+	private EmployeePayrollRepository employeeRepository;
+    private List<Employee> employeeList = new ArrayList<>();
 
     public Employee createEmployee(EmployeeDTO employeeDTO) {
-        Employee newEmployee = new Employee(employeeIdCounter++, employeeDTO);
+        Employee newEmployee = null;
+        newEmployee=new Employee(employeeDTO);
+        log.debug("Emp Data: "+newEmployee.toString());
         employeeList.add(newEmployee);
-        log.info("Created Employee: {}", newEmployee);
-        return newEmployee;
+        return employeeRepository.save(newEmployee);
     }
 
     public List<Employee> getAllEmployees() {
